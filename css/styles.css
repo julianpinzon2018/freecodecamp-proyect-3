@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+}
+.section-header header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+    padding-inline: 40px;
+    flex-basis: auto;
+    position: fixed;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+}
+.nav-link {
+    font-size: 16px;
+    padding-inline: 30px;
+    text-decoration: none;
+    color: black;
+}
+.section-header img {
+    max-width: 260px;
+    height: auto;
+}
+h1 {
+    margin-block-start: 100px;
+    padding-inline: 10px;
+}
+#email {
+    padding-block: 6px;
+    padding-inline: 6px;
+    width: 250px;
+    border-radius: 4px;
+    margin-block-end: 15px;
+}
+#submit {
+    padding-block: 4px;
+    width: 130px;
+    font-size: 16px;
+    background: #ffd200;
+    border-radius: 4px;
+    border: none;
+    margin-block-end: 40px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form .correo {
+    text-align: center;
+    margin-block-end: 18px;
+}
+#caracteristicas {
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+    padding-inline: 5px;
+}
+#caracteristicas h2 {
+    font-size: 24px;
+}
+#caracteristicas p {
+    font-size: 16px;
+}
+#caracteristicas div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img1 {
+    max-width: 60px;
+    max-height: 70px;
+    padding-inline-start: 30px;
+    padding-inline-end: 60px;
+    
+}
+.img2 {
+    max-width: 60px;
+    padding-inline-start: 30px;
+    padding-inline-end: 60px;
+    max-height: 70px;
+}
+.img3 {
+    max-width: 100px;
+    padding-inline-start: 10px;
+    padding-inline-end: 40px;
+}
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+.video {
+    text-align: center;
+    width: 100%;
+}
+#video {
+    aspect-ratio: 16 / 9;
+    width: 60%;
+    height: auto;
+}
+footer {
+    margin-block-start: 50px;
+    height: 40px;
+    width: 100%;
+    background: #eee;
+    text-align: end;
+    align-self: center;
+    padding-inline-end: 15px;
+    padding-block: 22px;
+    margin-inline: 0;
+}
+.nav-footer {
+    text-decoration: none;
+    color: black;
+}
+#precios blockquote {
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    width: 28%;
+    border-radius: 4px;
+    border: 1px solid gray;
+    padding-inline: 10px;
+    margin-inline: 0;
+    font-size: 16px;
+}
+#precios div {
+    display: flex;
+    margin-block: 40px;
+    justify-content: space-evenly;
+}
+#precios h3 {
+    background-color: #ddd;
+    margin-inline: -10px;
+    padding-block: 10px;
+    margin-block-start: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+#precios button {
+    margin-inline: auto;
+    padding-inline: 10px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    max-width: 140px;
+    height: auto;
+    padding-block: 6px;
+    border-radius: 4px;
+    background-color: #ffd200;
+    font-size: 16px;
+    border: none;
+}
+#precios p {
+    margin-block-end: -8px;
+}
+#nav-footer {
+    margin-block-end: -15px;
+    margin-inline: 0;
+}
+#nav-footer a {
+    padding-inline: 18px;
+}
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 20px;
+    }
+    .section-header header {
+        padding-inline: 0;
+    }
+    .nav-link {
+        padding-inline: 4px;
+        font-size: 8px;
+    }
+    .section-header img {
+        max-width: 160px;
+    }
+    #caracteristicas {
+        margin-block-start: -10px;
+        margin-block-end: 20px;
+    }
+    .img1 {
+        padding-inline-start: 10px;
+        padding-inline-end: 35px; 
+    }
+    .img2 {
+        padding-inline-start: 10px;
+        padding-inline-end: 35px;
+    }
+    .img3 {
+        padding-inline-start: 0px;
+        padding-inline-end: 5px;
+    }
+    #caracteristicas h2 {
+        font-size: 16px;
+    }
+    #caracteristicas p {
+        font-size: 12px;
+    }
+    #video {
+        width: 100%;
+    }
+    #precios blockquote {
+        font-size: 10px;
+    }
+    #precios h3 {
+        font-size: 10px;
+    }
+    #precios button{
+        font-size: 12px;
+        margin-block-start: 15px;
+        margin-block-end: 5px;
+    }
+
+}
